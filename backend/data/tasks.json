@@ -1,0 +1,203 @@
+[
+  {
+    "id": "a1b2c3d4-0001-4000-8000-000000000001",
+    "name": "อัพเกรด Firmware BT7 v2.5.1",
+    "kioskType": "BT7",
+    "taskType": "firmware_update",
+    "status": "completed",
+    "scheduledDate": "2026-06-05",
+    "description": "อัพเกรด firmware ตู้ BT7 จากเวอร์ชัน 2.4.0 เป็น 2.5.1 แก้ไขปัญหาการแสดงผลและเพิ่มประสิทธิภาพการทำงาน",
+    "files": [
+      {
+        "filename": "firmware_bt7_v251.xml",
+        "fileType": "xml",
+        "isModified": true,
+        "version": "2.5.1",
+        "note": "Main firmware config"
+      },
+      {
+        "filename": "splash_bt7.bmp",
+        "fileType": "bmp",
+        "isModified": true,
+        "version": "1.2",
+        "note": "Splash screen updated"
+      },
+      {
+        "filename": "startup_sound.pcm",
+        "fileType": "pcm",
+        "isModified": false,
+        "version": "1.0",
+        "note": "No change"
+      },
+      {
+        "filename": "intro_video.mp4",
+        "fileType": "mp4",
+        "isModified": false,
+        "version": "1.0",
+        "note": "No change"
+      }
+    ],
+    "createdAt": "2026-06-01T09:00:00.000Z",
+    "updatedAt": "2026-06-05T16:30:00.000Z"
+  },
+  {
+    "id": "a1b2c3d4-0002-4000-8000-000000000002",
+    "name": "อัพเดท Content ตู้ BT10 มิถุนายน",
+    "kioskType": "BT10",
+    "taskType": "content_update",
+    "status": "in_progress",
+    "scheduledDate": "2026-06-15",
+    "description": "อัพเดทเนื้อหาโฆษณาและภาพประกอบในตู้ BT10 ประจำเดือนมิถุนายน 2026",
+    "files": [
+      {
+        "filename": "ads_june_2026.xml",
+        "fileType": "xml",
+        "isModified": true,
+        "version": "6.0",
+        "note": "Monthly ads config"
+      },
+      {
+        "filename": "banner_june.bmp",
+        "fileType": "bmp",
+        "isModified": true,
+        "version": "6.0",
+        "note": "June banner"
+      },
+      {
+        "filename": "promotion_video_june.mp4",
+        "fileType": "mp4",
+        "isModified": true,
+        "version": "6.0",
+        "note": "June promotion video"
+      },
+      {
+        "filename": "notification_sound.pcm",
+        "fileType": "pcm",
+        "isModified": false,
+        "version": "2.0",
+        "note": "No change"
+      }
+    ],
+    "createdAt": "2026-06-08T10:00:00.000Z",
+    "updatedAt": "2026-06-14T11:00:00.000Z"
+  },
+  {
+    "id": "a1b2c3d4-0003-4000-8000-000000000003",
+    "name": "อัพเกรด Software ตู้เต่าบิน v3.0",
+    "kioskType": "เต่าบิน",
+    "taskType": "software_update",
+    "status": "pending",
+    "scheduledDate": "2026-06-20",
+    "description": "อัพเกรดซอฟต์แวร์ตู้เต่าบินเป็นเวอร์ชัน 3.0 ซึ่งมีการปรับปรุง UI ใหม่และเพิ่มฟีเจอร์ชำระเงินดิจิทัล",
+    "files": [
+      {
+        "filename": "turtlefly_app_v30.xml",
+        "fileType": "xml",
+        "isModified": true,
+        "version": "3.0",
+        "note": "New app config"
+      },
+      {
+        "filename": "turtlefly_theme.bmp",
+        "fileType": "bmp",
+        "isModified": true,
+        "version": "3.0",
+        "note": "New UI theme"
+      },
+      {
+        "filename": "turtlefly_intro.mp4",
+        "fileType": "mp4",
+        "isModified": true,
+        "version": "3.0",
+        "note": "New intro video"
+      },
+      {
+        "filename": "payment_confirm.pcm",
+        "fileType": "pcm",
+        "isModified": true,
+        "version": "2.0",
+        "note": "New payment sound"
+      }
+    ],
+    "createdAt": "2026-06-10T09:00:00.000Z",
+    "updatedAt": "2026-06-10T09:00:00.000Z"
+  },
+  {
+    "id": "a1b2c3d4-0004-4000-8000-000000000004",
+    "name": "ปรับแต่ง Config BT7 สาขาลาดพร้าว",
+    "kioskType": "BT7",
+    "taskType": "config_update",
+    "status": "pending",
+    "scheduledDate": "2026-06-22",
+    "description": "ปรับแต่งการตั้งค่าตู้ BT7 สาขาลาดพร้าวเพื่อรองรับช่องทางชำระเงินใหม่",
+    "files": [
+      {
+        "filename": "config_ladprao.xml",
+        "fileType": "xml",
+        "isModified": true,
+        "version": "1.5",
+        "note": "Branch config"
+      }
+    ],
+    "createdAt": "2026-06-11T14:00:00.000Z",
+    "updatedAt": "2026-06-11T14:00:00.000Z"
+  },
+  {
+    "id": "a1b2c3d4-0005-4000-8000-000000000005",
+    "name": "Maintenance ตู้ BT10 ประจำเดือน",
+    "kioskType": "BT10",
+    "taskType": "maintenance",
+    "status": "cancelled",
+    "scheduledDate": "2026-06-10",
+    "description": "บำรุงรักษาตู้ BT10 ประจำเดือน - ยกเลิกเนื่องจากทีมเทคนิคติดภารกิจ",
+    "files": [],
+    "createdAt": "2026-06-02T08:00:00.000Z",
+    "updatedAt": "2026-06-09T15:00:00.000Z"
+  },
+  {
+    "id": "a1b2c3d4-0006-4000-8000-000000000006",
+    "name": "อัพเดทเสียงประกาศ BT7 + BT10",
+    "kioskType": "BT7",
+    "taskType": "content_update",
+    "status": "pending",
+    "scheduledDate": "2026-06-28",
+    "description": "อัพเดทไฟล์เสียงประกาศและเสียงแจ้งเตือนสำหรับตู้ BT7 และ BT10 ทุกสาขา",
+    "files": [
+      {
+        "filename": "announcement_new.pcm",
+        "fileType": "pcm",
+        "isModified": true,
+        "version": "2.1",
+        "note": "New announcement"
+      },
+      {
+        "filename": "alert_sound.pcm",
+        "fileType": "pcm",
+        "isModified": true,
+        "version": "1.3",
+        "note": "Updated alert"
+      },
+      {
+        "filename": "sound_config.xml",
+        "fileType": "xml",
+        "isModified": true,
+        "version": "1.1",
+        "note": "Sound config"
+      }
+    ],
+    "createdAt": "2026-06-12T11:00:00.000Z",
+    "updatedAt": "2026-06-12T11:00:00.000Z"
+  },
+  {
+    "id": "b45bb8a9-f57b-4a8b-85c9-baac3232d4ea",
+    "name": "อัพเกรดตู้ 16.70",
+    "kioskType": "BT10",
+    "taskType": "software_update",
+    "status": "pending",
+    "scheduledDate": "2026-06-15",
+    "description": "",
+    "files": [],
+    "createdAt": "2026-06-15T16:52:56.128Z",
+    "updatedAt": "2026-06-15T16:52:56.128Z"
+  }
+]
