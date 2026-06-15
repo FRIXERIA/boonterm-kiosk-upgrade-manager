@@ -1,4 +1,4 @@
-# Boonterm Upgrade Manager
+# Boonterm Kiosk Upgrade Manager
 
 ระบบจัดการการอัพเกรดซอฟต์แวร์รอบตู้บุญเติม — Web Application ที่ช่วยติดตามและบริหารจัดการงานอัพเกรด Software สำหรับตู้บุญเติม 3 ประเภท: **BT7**, **BT10**, และ **ตู้เต่าบิน**
 
