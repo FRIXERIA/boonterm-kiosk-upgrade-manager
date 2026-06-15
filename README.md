@@ -146,17 +146,24 @@ Frontend จะรันที่: `http://localhost:5173`
 ### หน้า Calendar (หน้าหลัก)
 - แสดงงานทุกชิ้นบน Monthly Calendar
 - BT7 = สีน้ำเงิน | BT10 = สีเขียว | เต่าบิน = สีม่วง
+  <img width="1919" height="901" alt="image" src="https://github.com/user-attachments/assets/3ac80929-2a33-4837-834b-880eb61be28e" />
 - คลิกงานเพื่อเปิด Detail Panel
+<img width="1919" height="907" alt="image" src="https://github.com/user-attachments/assets/28171f93-23b4-454a-9e69-ff8525309d2e" />
+
 
 ### หน้า Task List
 - ตารางงานทั้งหมด
 - Filter ตาม: ประเภทตู้, สถานะ, ค้นหา
 - เปลี่ยนสถานะได้ inline
 - แก้ไข / ลบงาน
+<img width="1919" height="903" alt="image" src="https://github.com/user-attachments/assets/dd149c5e-698b-4bfc-8032-29276c517e07" />
+
 
 ### หน้า File Summary
 - สรุปไฟล์จัดกลุ่มตาม .xml / .bmp / .pcm / .mp4
 - Filter ตามประเภทตู้และสถานะการแก้ไข
 - ตารางไฟล์ที่มีการแก้ไขทั้งหมด
+<img width="1919" height="901" alt="image" src="https://github.com/user-attachments/assets/439584c5-f9fb-4783-82f7-8a8dfeaacc18" />
+
 
 ---
